@@ -1,0 +1,476 @@
+* {
+    box-sizing: border-box;
+}
+
+.div {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #ffffff;
+    height: 100px;
+    align-items: center;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    flex-direction: row;
+}
+
+.Конт2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.map {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+
+.map1 {
+
+    height: 40px;
+
+    width: 40px;
+
+    margin-left: 10px;
+
+    margin-right: 4px;
+}
+
+.Рамка {
+
+    height: 40px;
+    left: 1577px;
+    border: 1px solid #000000;
+    width: 171px;
+    top: 47px;
+    padding-top: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    gap: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+body {
+    font-family: "Montserrat", serif;
+    margin: 0px;
+}
+
+button {
+    padding: 10px 34px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    color: #686868;
+    background-color: #ffffff;
+    transition: 300ms;
+    transform: scale(1);
+
+}
+
+button:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+button:active {
+    transform: scale(0.8);
+    transition: 100ms;
+}
+
+
+.Человк {
+
+    height: 45px;
+    width: 45px;
+
+
+}
+
+.Город {
+    transform: translate(0px, -3px);
+    height: 70px;
+    width: 70px;
+
+}
+
+
+.Главное-лого {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 150px;
+}
+
+
+.главная-реклама {
+    height: 900px;
+    padding-right: 20px;
+    background-image: url("Фигма.jpeg");
+    background-size: 100%;
+    border-radius: 80px;
+    margin-top: 25px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+
+
+.S2 {
+
+    font-size: 50px;
+    height: 600px;
+    padding: 100px;
+
+}
+
+.S3 {
+    font-style: oblique;
+    font-size: 30px;
+    height: 100px;
+
+}
+
+.S4 {
+    font-style: oblique;
+    font-size: 35px;
+}
+
+
+
+.S5 {
+    font-style: oblique;
+    font-size: 35px;
+}
+
+.S6 {
+    font-style: oblique;
+    font-size: 105px;
+
+}
+
+.B1 {
+    transition: 300ms;
+    transform: scale(1);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    background-color: #000000;
+
+
+
+}
+
+.B1:hover {
+    background: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.заголовок-секции {
+    background-color: rgb(255, 242, 222, 1);
+    width: 100%;
+    padding: 0px;
+    color: #000000;
+    height: 80px;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+}
+
+.doma {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 5%;
+    margin-top: 2%;
+}
+
+
+.название-дома {
+    font-size: 22px;
+    margin-top: 15px;
+    display: block;
+}
+
+.картинка1 {
+    width: 100%;
+
+}
+
+.dom1 {
+    border-image: url("G1.png");
+    background-size: cover;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #763A0B;
+}
+
+.dom2 {
+    border-image: url("G2.png");
+    background-size: cover;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #763A0B;
+}
+
+.dom3 {
+    border-image: url("G3.png");
+    background-size: cover;
+    width: 370px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #763A0B;
+}
+
+.Англ-яз {
+
+    padding-top: 12px;
+    display: block;
+    font-family: "DM Sans", serif;
+    font-weight: 400;
+}
+
+.Кнопка {
+    padding: 10px 34px;
+    margin-top: 23px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #763A0B;
+    cursor: pointer;
+    color: #763A0B;
+    transition: 300ms;
+    transform: scale(1);
+}
+
+.Кнопка:hover {
+    background-color: #763A0B;
+    color: rgb(255, 255, 255);
+}
+
+.Кнопка:active {
+    transform: scale(0.8);
+    transition: 100ms;
+}
+
+.Технологии {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 40px;
+
+    align-items: stretch;
+
+    padding-left: 5%;
+
+    margin-top: 90px;
+
+    padding-right: 5%;
+}
+
+
+.Маленькие-картинки {
+    height: 90px;
+    width: 90px;
+}
+
+
+
+
+.рамка2 {
+
+    padding: 22px 42px;
+    width: 600px;
+    border-radius: 26px;
+    width: 501px;
+    background-color: #fff2de;
+}
+
+.шрифт-к-картинкам {
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.шрифт-к-картинкам1 {
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.шрифт-к-картинкам2 {
+    font-size: 20px;
+    margin-top: 11px;
+    margin-bottom: 17px;
+}
+
+.заголовок-секции2 {
+
+    background-color: rgb(255, 242, 222, 1);
+    width: 100%;
+    padding: 0px;
+    color: #000000;
+    height: 80px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+
+
+}
+
+
+
+.конец {
+
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: rgb(255, 242, 222, 1);
+    height: 200px;
+    align-items: center;
+    padding-left: 2.5%;
+    margin-top: 100px;
+    padding-right:2.5% ;
+
+}
+
+.карт1 {
+    margin-left: -10px;
+}
+
+.карт2 {
+    margin-left: -14px;
+}
+
+.карт3 {
+    margin-left: -27px;
+}
+
+
+
+
+
+
+.grid {
+    width: 85%;
+    margin-top: 56px;
+    margin-left: 7.5%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 270px 322px;
+    border-radius: 70px;   
+    overflow: hidden;
+    box-shadow: 0px 4px 20px 0px rgb(0 0 0 / 10%);
+}
+
+.test {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.test-1 {
+    border: 1px solid black;   
+    border-top-color: #ff000000;
+    border-left-color: #ff000000;    
+}
+
+.test-2 {   
+    border: 1px solid black;  
+    border-top-color: #ff000000;
+    border-bottom-color: #ff000000;
+    border-left-color: #ff000000;
+    grid-column: 2/4;
+    grid-row: 2/3;   
+    border-bottom-width: 0;
+    border-right: 0;  
+}
+
+.test-3 {   
+    border: 1px solid black;  
+    border-left-color: #ff000000;
+    border-top-color: #ffffff;
+}
+
+.test-4 {  
+    border-bottom: 1px solid black;  
+}
+
+.test-5 {
+    border-right: 1px solid black;   
+}
+
+.грид-шрифт {
+    display: block;
+}
+
+.rub {   
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.strelka:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.strelka {
+    background-color: #ffffff;
+    color: #000000;
+}
+ .выравн {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+
+ }
+
+
+.иконка {
+
+height: 24px;
+width: 24px;
+
+}
+
+
+.почта {
+
+display: flex;
+justify-content: end;
+align-items: center;
+gap: 7px;
+
+}
+
+.\32-блок {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+
+
+
