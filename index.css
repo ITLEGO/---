@@ -471,9 +471,36 @@ gap: 7px;
 }
 
 @media (max-width:800px) {
-    .Главное-лого{
-        font-size:30px
-    } 
+    .Главное-лого {
+        font-size: 40px;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    .S2 {       
+        height: auto; 
+        padding: 30px 50px ;
+    }
+    .главная-реклама {       
+        padding-right: 0px;    
+        height: auto;  
+        background-size: 120%;  
+        border-radius: 52px;
+    }     
+   
+    .S4, .S5 , .S6,  .S3  {
+      
+        font-size: 18px;
+    }
+    .S3 {
+      
+        height: auto;
+    }
+    .B1 {       
+        height: auto;
+        width: auto;
+        font-size: 15px;  
+        padding: 10px 30px;  
+    }
 }
 
 
