@@ -470,6 +470,12 @@ gap: 7px;
     gap: 15px;
 }
 
+@media (max-width:800px) {
+    .Главное-лого{
+        font-size:30px
+    } 
+}
+
 
 
 
