@@ -483,10 +483,14 @@ gap: 7px;
     .главная-реклама {       
         padding-right: 0px;    
         height: auto;  
-        background-size: 120%;  
+        background-size: 130%;
+        background-position: 100% 27%;
         border-radius: 52px;
     }     
    
+    .S6 {
+        margin-top: 18px;
+    }
     .S4, .S5 , .S6,  .S3  {
       
         font-size: 18px;
