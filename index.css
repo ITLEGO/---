@@ -471,6 +471,15 @@ gap: 7px;
 }
 
 @media (max-width:800px) {
+
+    .Конт2 > button:not(.Рамка) {     
+        display: none;
+    }
+  
+    .конец .Город, .конец button:not(.Рамка) {
+        display: none;
+    }
+    
     .Главное-лого {
         font-size: 40px;
         margin: 0;
