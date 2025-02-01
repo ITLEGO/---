@@ -205,27 +205,7 @@ button:active {
 
 }
 
-.dom1 {
-    border-image: url("G1.png");
-    background-size: cover;
-    width: 370px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #763A0B;
-}
-
-.dom2 {
-    border-image: url("G2.png");
-    background-size: cover;
-    width: 370px;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid #763A0B;
-}
-
-.dom3 {
-    border-image: url("G3.png");
-    background-size: cover;
+.dom {
     width: 370px;
     padding: 20px;
     border-radius: 10px;
@@ -342,7 +322,7 @@ button:active {
     align-items: center;
     padding-left: 2.5%;
     margin-top: 100px;
-    padding-right:2.5% ;
+    padding-right: 2.5%;
 
 }
 
@@ -371,7 +351,7 @@ button:active {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 270px 322px;
-    border-radius: 70px;   
+    border-radius: 70px;
     overflow: hidden;
     box-shadow: 0px 4px 20px 0px rgb(0 0 0 / 10%);
 }
@@ -387,41 +367,41 @@ button:active {
 
 
 .test-1 {
-    border: 1px solid black;   
+    border: 1px solid black;
     border-top-color: #ff000000;
-    border-left-color: #ff000000;    
+    border-left-color: #ff000000;
 }
 
-.test-2 {   
-    border: 1px solid black;  
+.test-2 {
+    border: 1px solid black;
     border-top-color: #ff000000;
     border-bottom-color: #ff000000;
     border-left-color: #ff000000;
     grid-column: 2/4;
-    grid-row: 2/3;   
+    grid-row: 2/3;
     border-bottom-width: 0;
-    border-right: 0;  
+    border-right: 0;
 }
 
-.test-3 {   
-    border: 1px solid black;  
+.test-3 {
+    border: 1px solid black;
     border-left-color: #ff000000;
     border-top-color: #ffffff;
 }
 
-.test-4 {  
-    border-bottom: 1px solid black;  
+.test-4 {
+    border-bottom: 1px solid black;
 }
 
 .test-5 {
-    border-right: 1px solid black;   
+    border-right: 1px solid black;
 }
 
 .грид-шрифт {
     display: block;
 }
 
-.rub {   
+.rub {
     padding-top: 20px;
     font-size: 30px;
 }
@@ -435,7 +415,8 @@ button:active {
     background-color: #ffffff;
     color: #000000;
 }
- .выравн {
+
+.выравн {
 
     display: flex;
     align-items: center;
@@ -443,23 +424,23 @@ button:active {
 
 
 
- }
+}
 
 
 .иконка {
 
-height: 24px;
-width: 24px;
+    height: 24px;
+    width: 24px;
 
 }
 
 
 .почта {
 
-display: flex;
-justify-content: end;
-align-items: center;
-gap: 7px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 7px;
 
 }
 
@@ -472,11 +453,12 @@ gap: 7px;
 
 @media (max-width:800px) {
 
-    .Конт2 > button:not(.Рамка) {     
+    .Конт2>button:not(.Рамка) {
         display: none;
     }
-  
-    .конец .Город, .конец button:not(.Рамка) {
+
+    .конец .Город,
+    .конец button:not(.Рамка) {
         display: none;
     }
 
@@ -485,95 +467,84 @@ gap: 7px;
         margin: 0;
         margin-bottom: 12px;
     }
-    .S2 {       
-        height: auto; 
-        padding: 30px 50px ;
+
+    .S2 {
+        height: auto;
+        padding: 30px 50px;
     }
-    .главная-реклама {       
-        padding-right: 0px;    
-        height: auto;  
+
+    .главная-реклама {
+        padding-right: 0px;
+        height: auto;
         background-size: 130%;
         background-position: 100% 27%;
         border-radius: 52px;
-    }     
-   
+    }
+
     .S6 {
         margin-top: 18px;
     }
-    .S4, .S5 , .S6,  .S3  {
-      
+
+    .S4,
+    .S5,
+    .S6,
+    .S3 {
+
         font-size: 18px;
     }
+
     .S3 {
-      
+
         height: auto;
     }
-    .B1 {       
+
+    .B1 {
         height: auto;
         width: auto;
-        font-size: 15px;  
-        padding: 10px 30px;  
+        font-size: 15px;
+        padding: 10px 30px;
     }
 
     .doma {
-      
-        padding: 25px 5%;
-        margin-top: 2%;
+        flex-direction: column;
+        gap: 30px;
     }
 
-
-    .dom1 {
+    .dom {
         display: grid;
-        justify-content: space-evenly;
-        border-image: url(G1.png);
-        background-size: cover;
-        width: 370px;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid #763A0B;
-        align-items: center;
-        justify-items: stretch;
     }
 
-    .dom2 {
-        display: grid;
-        justify-content: space-evenly;
-        border-image: url(G2.png);
-        background-size: cover;
-        width: 370px;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid #763A0B;
+    .Технологии {
+        flex-direction: column;
     }
 
-
-    .dom3 {
-        display: grid;
-        justify-content: space-evenly;
-        border-image: url(G3.png);
-        background-size: cover;
-        width: 370px;
-        padding: 20px;
-        border-radius: 10px;
-        border: 1px solid #763A0B;
+    .рамка2 {
+        width: auto;
     }
 
+    .test-2 {
+        grid-column: 1/3;
+        grid-row: 3/4;
+        border-top: 1px solid black;
+    }
 
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 270px 270px 322px;
+    }
 
+    .test-3 {
+        border-right-color: #ff000000;
+    }
 
+    .test-4 {
+        border-bottom: 0px;
+        border-right: 1px solid black;
+    }
 
-
-
-
-
-
-
-
+    .test-5 {
+        border-right: 0px;
+    }
 
 
 }
-
-
-
-
-
