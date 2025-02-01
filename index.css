@@ -451,7 +451,7 @@ button:active {
     gap: 15px;
 }
 
-@media (max-width:800px) {
+@media (max-width:700px) {
 
     .Конт2>button:not(.Рамка) {
         display: none;
@@ -546,5 +546,56 @@ button:active {
         border-right: 0px;
     }
 
+
+}
+
+@media (max-width:520px) {
+
+    .Город-N {
+        display: none;
+    }
+
+    .map1 {
+        display: none;
+    }
+
+    .шрифт-к-картинкам {
+        font-size: 18px;
+        white-space: nowrap;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    
+    .шрифт-к-картинкам1 {
+        font-size: 25px;
+        white-space: nowrap;
+    }
+    
+    .шрифт-к-картинкам2 {
+        font-size: 16px;
+        margin-top: 11px;
+        margin-bottom: 17px;
+        text-align: center;
+    }
+
+    .рамка2 {
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .карт3 {
+       margin-left: 0px; 
+    }
+
+    .карт2 {
+
+        margin-left: 0px; 
+    }
+    .карт1 {
+        margin-left: 0px;
+    }
 
 }
