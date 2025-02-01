@@ -479,7 +479,7 @@ gap: 7px;
     .конец .Город, .конец button:not(.Рамка) {
         display: none;
     }
-    
+
     .Главное-лого {
         font-size: 40px;
         margin: 0;
@@ -514,6 +514,63 @@ gap: 7px;
         font-size: 15px;  
         padding: 10px 30px;  
     }
+
+    .doma {
+      
+        padding: 25px 5%;
+        margin-top: 2%;
+    }
+
+
+    .dom1 {
+        display: grid;
+        justify-content: space-evenly;
+        border-image: url(G1.png);
+        background-size: cover;
+        width: 370px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #763A0B;
+        align-items: center;
+        justify-items: stretch;
+    }
+
+    .dom2 {
+        display: grid;
+        justify-content: space-evenly;
+        border-image: url(G2.png);
+        background-size: cover;
+        width: 370px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #763A0B;
+    }
+
+
+    .dom3 {
+        display: grid;
+        justify-content: space-evenly;
+        border-image: url(G3.png);
+        background-size: cover;
+        width: 370px;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #763A0B;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
