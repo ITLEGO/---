@@ -560,38 +560,29 @@ button:active {
     }
 
     .шрифт-к-картинкам {
-        font-size: 18px;
-        white-space: nowrap;
-        margin-top: 10px;
-        margin-bottom: 0;
+        font-size: 18px;       
     }
     
     .шрифт-к-картинкам1 {
-        font-size: 25px;
-        white-space: nowrap;
+        font-size: 25px;  
     }
     
     .шрифт-к-картинкам2 {
-        font-size: 16px;
-        margin-top: 11px;
-        margin-bottom: 17px;
+        font-size: 16px;   
         text-align: center;
     }
 
-    .рамка2 {
-       
+    .рамка2 {       
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
 
     .карт3 {
        margin-left: 0px; 
     }
 
     .карт2 {
-
         margin-left: 0px; 
     }
     .карт1 {
